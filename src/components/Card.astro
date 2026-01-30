@@ -11,6 +11,7 @@ interface Props {
 		image?: ImageMetadata | string;
 	imageAlt?: string;
 	eyebrow?: string;
+	variant?: string;
 }
 
 const { title, href, description, date, image, imageAlt = '', eyebrow } = Astro.props as Props;

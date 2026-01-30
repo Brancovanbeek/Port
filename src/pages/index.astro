@@ -15,19 +15,19 @@ const site = await getSite();
 ---
 
 <PageLayout
-	title={site.author.name || 'Dasein'}
+	title={site.author.name || 'Branco'}
 >
 	<Hero
-		title={site.author.name || 'Dasein'}
+		title={site.author.name || 'Branco'}
 		description={site.author.bio || 'Welcome to my personal website.'}
 		role={site.author.role}
 		location={site.author.location}
 		actions={[
 			{ label: 'View Blog', href: '/blog' },
-			{ label: 'Get Quote', href: '/contact' },
+			{ label: 'View Projects', href: '/projects' },
 		]}
 	/>
-
+				
 	<Social class="mt-8" />
 
 	<ProjectList

@@ -1,19 +1,19 @@
 author:
-  name: Dasein
-  role: PhD in Philosophy
-  bio:  Known for contributions to phenomenology, hermeneutics, and existentialism.
-  location: Munich, Germany
+  name: Branco
+  role: Frontend Developer
+  bio:  Passionate about creating intuitive user interfaces and seamless user experiences.
+  location: Volendam, Netherlands
 
 social:
   - id: "x"
     label: "X"
-    href: "#_"
+    href: "https://twitter.com/brancovanbeek"
   - id: "github"
     label: "GitHub"
-    href: "https://github.com/roicort"
+    href: "https://github.com/brancovanbeek"
   - id: "linkedin"
     label: "Linkedin"
-    href: "#_"
+    href: "https://www.linkedin.com/in/brancovanbeek/"
   - id: "email"
     label: "Email"
-    href: "mailto:"
+    href: "mailto:brancovanbeek5@gmail.com"

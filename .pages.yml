@@ -10,48 +10,6 @@ media:
     categories: [image, document]
 
 content:
-  - name: blog
-    label: Posts
-    type: collection
-    path: src/content/blog
-    filename: '{year}-{month}-{day}-{primary}.md'
-    view:
-      fields: [title, pubDate, updatedDate, author, tags]
-      sort: [pubDate, title]
-      default:
-        sort: pubDate
-        order: desc
-    fields:
-      - name: title
-        label: Title
-        type: string
-        required: true
-      - name: description
-        label: Description
-        type: text
-        required: true
-      - name: pubDate
-        label: Published
-        type: date
-        required: true
-      - name: updatedDate
-        label: Updated
-        type: date
-      - name: heroImage
-        label: Hero image
-        type: image
-      - name: author
-        label: Author
-        type: reference
-        options:
-          collection: authors
-          value: "{id}"
-          label: "{name}"
-      - name: tags
-        label: Tags
-        type: string
-        list: true
-
   - name: projects
     label: Projects
     type: collection
