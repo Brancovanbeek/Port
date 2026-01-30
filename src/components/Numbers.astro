@@ -34,10 +34,10 @@ const {
         <div class="rounded-2xl border border-border bg-surface px-5 py-6 shadow-[0_8px_40px_-24px_color-mix(in_oklab,var(--color-ink)_40%,transparent)]">
           <div class="flex items-baseline gap-2">
             <p class="text-3xl sm:text-4xl font-semibold tracking-tight text-ink m-0">{stat.value}</p>
-            {stat.delta && <span class="text-xs font-semibold text-muted uppercase tracking-[0.12em]">{stat.delta}</span>}
+            {stat.delta && <span class="font-semibold text-muted uppercase tracking-[0.12em]">{stat.delta}</span>}
           </div>
-          <p class="text-sm uppercase tracking-[0.22em] text-muted m-0 mt-2">{stat.label}</p>
-          {stat.description && <p class="text-sm text-muted m-0 mt-2">{stat.description}</p>}
+          <p class="uppercase tracking-[0.22em] text-muted m-0 mt-2">{stat.label}</p>
+          {stat.description && <p class="text-muted m-0 mt-2">{stat.description}</p>}
         </div>
       ))}
     </div>

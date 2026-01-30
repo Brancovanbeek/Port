@@ -1,7 +1,7 @@
 ---
 import PageLayout from '../layouts/PageLayout.astro';
 import Hero from '../components/Hero.astro';
-import PostList from '../components/PostList.astro';
+
 import SectionList from "../components/SectionList.astro";
 
 import { getCollection } from "astro:content";
@@ -23,23 +23,17 @@ const site = await getSite();
 		role={site.author.role}
 		location={site.author.location}
 		actions={[
-			{ label: 'View Blog', href: '/blog' },
+			{ label: 'About Me', href: '/about' },
 			{ label: 'View Projects', href: '/projects' },
 		]}
 	/>
-				
-	<Social class="mt-8" />
+
+	<Social/>
 
 	<ProjectList
 		heading="Projects"
 		limit={4}
 		viewAllHref="/projects"
-	/>
-
-	<PostList
-		heading="Blog"
-		limit={3}
-		viewAllHref="/blog"
 	/>
 
 	            <!-- Sections (from src/content/sections.yml) -->
