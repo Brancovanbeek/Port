@@ -2,7 +2,7 @@
 title: Healthy Urban Living Lab
 description: Website design and development for the Bajeskwartier project using SvelteKit and CMS integration.
 pubDate: 2026-01-30
-heroImage: /Users/branco/Documents/GitHub/Port/src/assets/1_31375_-_ext_06-small.jpg
+heroImage: ''
 updatedDate: 2026-01-30
 ---
 
